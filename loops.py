@@ -20,7 +20,7 @@ for ninja in ninjas:
     else:
         print(ninja)
 
-# HHILE LOOP STATEMENT
+# HHILE LOOP STATEMENTc
 age = 25
 num = 0
 

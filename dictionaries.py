@@ -6,8 +6,11 @@ def ninja_intro(dict):
 
 
 # dic = {"Andi": "red", "sakkir": "blue", "azzam": "pink"}
-
+# "Andi" in dict  # true
+# dic.keys()
+# dic.values()
 # ninja_intro(dic)
+
 ninja_belts = {}
 
 while True:
