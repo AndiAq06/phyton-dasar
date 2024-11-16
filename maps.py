@@ -1,5 +1,7 @@
 from random import shuffle
 
+# map(function, iterable)
+
 
 def jumble(word):
     anagram = list(word)

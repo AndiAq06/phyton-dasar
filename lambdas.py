@@ -1,5 +1,7 @@
 nums = [1, 2, 3, 4, 5, 6]
 
+# lambda arguments: expression
+
 # def square(n):
 #     return n * n
 

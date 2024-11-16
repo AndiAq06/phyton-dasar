@@ -1,16 +1,16 @@
 # SORTED
 nums = [1, 4, 2, 7, 3, 8, 3, 4, 8, 1]
-sorted(nums)
+hasil1 = sorted(nums)
 
 names = ['shaun', 'ryu', 'abe', 'Apple', 'Bryan', 'shaun']
-sorted(names)
+hasil2 = sorted(names)
 
 # SET
-set(nums)
-set(names)
+hasil3 = set(nums)
+hasil4 = set(names)
 
 ninjas = {'ryu': 'black', 'yoshi': 'red', 'crystal': 'black'}
-set(ninjas.values())
+hasil5 = set(ninjas.values())
 
 
 def belt_count(dict):

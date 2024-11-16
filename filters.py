@@ -4,6 +4,9 @@ grades = ['A', 'B', 'F', 'C', 'F', 'A']
 def remove_fails(grade):
     return grade != 'F'
 
+# filter
+# filter(function, iterable = data)
+
 
 print(list(filter(remove_fails, grades)))
 

@@ -23,3 +23,42 @@ def answer():
 # question = cough_dec(question)
 question()
 answer()
+
+
+#  Dekarator biasa
+
+def log_decorator(func):
+    def wrapper(*args, **kwargs):
+        print(f"Memanggil fugsi: {func.__name__}")
+        result = func(*args, **kwargs)
+        print(f"Fungsi {func.__name__} selesai dipanggil.")
+        return result
+    return wrapper
+
+
+@log_decorator
+def say_hello(name):
+    print(f"Hello, {name}")
+
+
+say_hello("Andi")
+
+
+# Dekorator dengan Parameter
+def repeat(n):
+    def log_decorator(func):
+        def wrapper(*args, **kwargs):
+            print(f"Memanggil fugsi: {func.__name__}")
+            for _ in range(n):
+                func(*args, **kwargs)
+            print(f"Fungsi {func.__name__} selesai dipanggil.")
+        return wrapper
+    return log_decorator
+
+
+@repeat(3)
+def greet(name):
+    print(f"Hello, {name}!")
+
+
+greet("Andi")

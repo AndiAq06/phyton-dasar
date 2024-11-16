@@ -23,3 +23,16 @@ print(squared_even_nums)
 # the comperhension way
 squared_even_nums = [num ** 2 for num in nums if (num ** 2) % 2 == 0]
 print(squared_even_nums)
+
+# List Comperhension
+even_number = [x for x in range(10) if x % 2 == 0]
+print(even_number)
+
+# Set Comprehension
+squared_numbers = {x**2 for x in range(10)}
+print(squared_numbers)
+
+
+# Dictionary comprehension
+squared_dict = {x: x**2 for x in range(10)}
+print(squared_dict)
